@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "378084766005",
+    "firebase_url": "https://agro-shop-679ba.firebaseio.com",
+    "project_id": "agro-shop-679ba",
+    "storage_bucket": "agro-shop-679ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378084766005:android:db5667b375fb3eab349c7c",
+        "android_client_info": {
+          "package_name": "com.example.agroshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378084766005-f5s00jhdbjim9pujs2s39tdj5jmbj95l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUn1ek6KrHmh9d8hfxhvlQ7pyDZ7Bjss8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378084766005-f5s00jhdbjim9pujs2s39tdj5jmbj95l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

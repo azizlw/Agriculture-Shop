@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminProductActivity">
+    <RelativeLayout
+        android:id="@+id/rill"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#169BD7"
+        android:layout_alignParentTop="true">
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="#ffffff"
+            android:textStyle="bold|italic"
+            android:gravity="center"
+            android:textSize="17dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/head"
+            android:text="Upload" />
+
+        <TextView
+            android:id="@+id/head"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="PRODUCTS"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="30dp"
+            android:gravity="center_horizontal" />
+
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cart_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/buy"
+        android:layout_below="@id/rill"
+        android:layout_marginTop="-4dp"
+        tools:ignore="NotSibling" />
+
+</RelativeLayout>

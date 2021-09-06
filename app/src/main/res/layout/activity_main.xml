@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:text="AGROSHOP"
+        android:textAlignment="center"
+        android:textColor="#169BD7"
+        android:textSize="45dp"
+        android:textStyle="bold|italic" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/head"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:src="@drawable/plant"
+        app:civ_border_color="#99ff33"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@+id/Signuptxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="70dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Welcome to Agro-Shop"
+        android:textColor="#169BD7"
+        android:textSize="20dp" />
+</RelativeLayout>
